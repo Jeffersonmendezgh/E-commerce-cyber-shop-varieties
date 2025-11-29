@@ -1424,3 +1424,17 @@ a[class*=card]:hover .title {
 }
 
 /*# sourceMappingURL=ui.css.map */
+
+.title-product{
+  color: #069c1c;
+  font-size: x-large;
+  text-align: center;
+
+}
+
+.price{
+  color: #069c1c;
+  border: 2px, solid, green;
+  border-radius: 2px;
+  text-align: center;
+}
