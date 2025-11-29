@@ -1,13 +1,13 @@
 /* === CONTENEDOR GENERAL === */
 .section-content {
-  background: #0f0f1b;
+  background: #86d882;
   padding: 40px 0;
   color: #f0f0f0;
   min-height: 100vh;
 }
 
 .section-pagetop {
-  background: linear-gradient(135deg, #1a1a2e, #0f0f1b);
+  background: linear-gradient(135deg, #044b24, #0f0f1b);
   padding: 30px 0;
 }
 
@@ -33,7 +33,7 @@ header.border-bottom {
 
 /* === TARJETAS DE PRODUCTO === */
 .card-product-grid {
-  background-color: #1a1a2e;
+  background-color: #87de78;
   border: none;
   border-radius: 12px;
   overflow: hidden;
@@ -56,7 +56,7 @@ header.border-bottom {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #12121c;
+  background: #16bd2c;
   padding: 20px;
   overflow: hidden;
 }
@@ -89,7 +89,7 @@ header.border-bottom {
 }
 
 .title {
-  color: #fff;
+  color: #0ecf31;
   font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
@@ -107,7 +107,7 @@ header.border-bottom {
 .price {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #00fff7;
+  color: #25e408;
   background: rgba(0, 255, 247, 0.1);
   padding: 6px 12px;
   border-radius: 8px;
@@ -123,7 +123,7 @@ header.border-bottom {
 
 /* === BOTÓN VER DETALLES === */
 .btn-success {
-  background: linear-gradient(135deg, #00f2fe, #4facfe);
+  background: linear-gradient(135deg, #04b129, #4facfe);
   border: none;
   color: #0f0f1b;
   font-weight: 600;

@@ -1,13 +1,13 @@
 /* === CONTENEDOR GENERAL === */
 .section-content {
-  background: #86d882;
+  background: #abdfa9;
   padding: 40px 0;
   color: #f0f0f0;
   min-height: 100vh;
 }
 
 .section-pagetop {
-  background: linear-gradient(135deg, #044b24, #0f0f1b);
+  background: linear-gradient(135deg, #16c473, #266148);
   padding: 30px 0;
 }
 
@@ -17,7 +17,7 @@
   font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  background: linear-gradient(90deg, #00fff7, #ff6b6b, #f8e71c);
+  background: linear-gradient(90deg, #16c473, #d5c2c2, #f8e71c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -123,7 +123,7 @@ header.border-bottom {
 
 /* === BOTÓN VER DETALLES === */
 .btn-success {
-  background: linear-gradient(135deg, #04b129, #4facfe);
+  background: linear-gradient(135deg, #04b129, #024722);
   border: none;
   color: #0f0f1b;
   font-weight: 600;
@@ -190,3 +190,46 @@ header.border-bottom {
     height: 150px;
   }
 }
+
+.product-description {
+    background: rgba(0, 255, 247, 0.05);
+    border-left: 3px solid #16c473;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    color: #032713;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    animation: slideDown 0.3s ease;
+}
+
+.contador-products{
+  height: 15%;
+  width: 30%;
+  background-color: #16c473;
+  border: 2px solid green;
+  border-radius: 2px;
+  padding: 3px;
+}
+.contador-products:hover{
+  background: #0ecf31;
+}
+ .logo-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  margin-left: 50px ;
+  margin-top: 10px;
+  
+ }
+
+ .logo-icon img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;  
+   display: block;     
+    }
