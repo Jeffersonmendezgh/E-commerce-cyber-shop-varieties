@@ -148,3 +148,19 @@ JAZZMIN_SETTINGS = {
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR  / 'media' #directorio base que se crea en la raiz del proyecto
+
+from django.contrib.messages import constants as messages
+
+MESSAGE_TAGS = {
+    messages.INFO: "",
+    50: "critical",
+}
+
+#cambio que no altera agregar al final
+#activacion SMTP hay que oculatr esto en produccion
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "jeffersmendez.jm@gmail.com"
+EMAIL_HOST_PASSWORD="ppih aisd gdkl mfwj"
+EMAIL_USE_TLS= True
+DEFAULT_FROM_EMAIL= "jeffersmendez.jm@gmail.com"
